@@ -33,7 +33,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link className={styles.title} href='/polychromatic'>Polychromatic</Link>
+        <Link href='/polychromatic' className='title'>Polychromatic</Link>
         {
           data && data.results.map((tech, index) => {
             return (
@@ -42,9 +42,7 @@ export default function Home() {
                   tech && tech.map((t,ind) => {
                     if(ind === 10){
                       return (
-                        <div className={styles.image}>
-                        <Image src={t} alt={t} key={ind} width={200} height={200} />
-                        </div>
+                        <Image src={t} alt={t} key={ind} width={100} height={100} />
                       )
                     }
                   })

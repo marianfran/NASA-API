@@ -3,16 +3,3 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 }
-
-button{
-  background-color: aquamarine;
-  padding: 20px;
-  border-radius: 10px;
-  font-family: sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-button:hover {
-  background-color: #05d6d6;
-}

@@ -12,7 +12,3 @@ button{
   font-size: 15px;
   font-weight: bold;
 }
-
-button:hover {
-  background-color: #05d6d6;
-}

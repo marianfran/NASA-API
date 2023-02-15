@@ -1,0 +1,8 @@
+.main {
+    background-image: url('/astronautwallpaper.png');
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: sans-serif;
+    color: white;
+}

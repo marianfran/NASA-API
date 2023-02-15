@@ -17,8 +17,5 @@
   background-color: white;
   width: 250px;
   height: 250px;
-  display: flex;
-  justify-content: center;
-  margin: 15px;
-  border-radius: 15px;
+  align-items: center;
 }

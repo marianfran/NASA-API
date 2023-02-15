@@ -1,0 +1,14 @@
+.main {
+    background-image: url('/spacebackground.jpeg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.maintime {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: none;
+}

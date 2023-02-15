@@ -1,0 +1,12 @@
+.main {
+  background-image: url('/spacebackground.jpeg');
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size:30px;
+  font-weight: bold;
+  text-align: none;
+}

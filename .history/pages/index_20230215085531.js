@@ -44,6 +44,7 @@ export default function Home() {
                       return (
                         <div className={styles.image}>
                         <Image src={t} alt={t} key={ind} width={200} height={200} />
+                        Image
                         </div>
                       )
                     }
